@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.5)
-project(AlphaCarCreditInquiry VERSION 1.5.0)
+cmake_minimum_required(VERSION 3.13.1)
+project(AlphaCarCreditInquiry VERSION 1.0.0)
 
 set(EOSIO_CDT_VERSION_MIN "1.4")
 set(EOSIO_CDT_VERSION_SOFT_MAX "1.4")

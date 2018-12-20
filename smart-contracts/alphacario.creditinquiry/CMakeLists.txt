@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.13.1)
 
 ### Generate the wasm and abi
 add_contract(creditinquiry creditinquiry src/creditinquiry.cpp )
