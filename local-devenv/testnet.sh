@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#https://github.com/cryptokylin/CryptoKylin-Testnet#http-api-list
+
 #http://faucet.cryptokylin.io/create_account?alphacartest
 #http://faucet.cryptokylin.io/get_token?alphacarshow
 
