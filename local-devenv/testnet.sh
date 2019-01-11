@@ -16,11 +16,20 @@ tcleos system delegatebw --buyram '500 EOS' alphacarshow alphacarshow '100 EOS' 
 
 tcleos system delegatebw --buyram '300 EOS' alphacarshow alphacarshow '50 EOS' '50 EOS'
 
-tcleos set contract alphacartest /contracts/AlphaCarCreditInquiry/smart-contracts/build/alphacario.creditinquiry \
-creditinquiry.wasm creditinquiry.abi -p alphacartest@active
+tcleos set contract alphacartest /contracts/aci-platform/aci-smart-contracts/smart-contracts\
+/build/alphacario.creditinquiry creditinquiry.wasm creditinquiry.abi -p alphacartest@active
 
-tcleos set contract alphacarshow /contracts/AlphaCarCreditInquiry/smart-contracts/build/alphacario.creditinquiry \
-creditinquiry.wasm creditinquiry.abi -p alphacarshow@active
+tcleos set contract alphacarshow /contracts/aci-platform/aci-smart-contracts/smart-contracts\
+/build/alphacario.creditinquiry creditinquiry.wasm creditinquiry.abi -p alphacarshow@active
+
+#mainnet
+mcleos system delegatebw leochan54321 leochan54321
+mcleos system delegatebw --buyram '0 EOS' acarservice1 acarservice1 '0 EOS' '30 EOS'
+mcleos transfer leochan54321 acarservice1 '30 EOS' ''
+
+mcleos set contract acarservice1 /contracts/aci-platform/aci-smart-contracts/smart-contracts\
+/build/alphacario.creditinquiry creditinquiry.wasm creditinquiry.abi -p acarservice1@active
+#....end of mainnet
 
 tcleos get table alphacartest alphacartest records
 

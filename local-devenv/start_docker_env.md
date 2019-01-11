@@ -31,3 +31,5 @@ docker run --name eosio_m --publish 127.0.0.1:6666:6666 \
 
 alias lcleos="docker exec -i eosio /opt/eosio/bin/cleos --wallet-url http://127.0.0.1:5555 -u http://127.0.0.1:7777"
 alias mcleos="docker exec -i eosio_m /opt/eosio/bin/cleos --wallet-url http://127.0.0.1:6666 -u https://api.eosnewyork.io:443"
+
+mcleos system newaccount --stake-net "5.0000 EOS" --stake-cpu "5.0000 EOS" --buy-ram "50 EOS" leochan54321 acarservice1 EOS8XCZendjc5cMSQfHXkiiCYu4ynoAdTkWa5ny6AkPHceWstgMQk EOS8XCZendjc5cMSQfHXkiiCYu4ynoAdTkWa5ny6AkPHceWstgMQk
