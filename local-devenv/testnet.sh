@@ -55,7 +55,7 @@ alias tcleos="docker exec -i eosio_t /opt/eosio/bin/cleos --wallet-url http://12
 #local
 export MONGODB_URL=mongodb://root:example@localhost:27017
 export MONGODB_OPT=?authSource=admin
-export EOSIO_HTTP_URL=http://127.0.0.1:7777
+export EOSIO_HTTP_URL=http://127.0.0.1:8888
 export EOSIO_CONTRACT_ACCOUNT=alphacar
 export EOSIO_STARTING_BLOCK=1
 export EOSIO_CHAINID=""
@@ -76,7 +76,8 @@ export EOSIO_STARTING_BLOCK=24003980
 export EOSIO_CHAINID="5fff1dae8dc8e2fc4d5b23b2c7665c97f9e9d8edf2b6485a86ba311c25639191"
 
 #kylin data_mgr
-export MONGODB_URL=mongodb://root:example@localhost:27017/alphacar
+export MONGODB_URL=mongodb://root:example@localhost:27017
+export MONGODB_OPT=?authSource=admin
 export EOSIO_HTTP_URL=http://api.kylin.eosbeijing.one:8880
 export EOSIO_CONTRACT_ACCOUNT=alphacartest
 export EOSIO_CHAINID="5fff1dae8dc8e2fc4d5b23b2c7665c97f9e9d8edf2b6485a86ba311c25639191"
