@@ -67,19 +67,12 @@ export EOSIO_CONTRACT_ACCOUNT=alphacartest
 export EOSIO_STARTING_BLOCK=1000000
 export EOSIO_CHAINID=""
 
-#kylin
-export MONGODB_URL=mongodb://root:example@localhost:27017
-export MONGODB_OPT=?authSource=admin
-export EOSIO_HTTP_URL=http://api.kylin.eosbeijing.one:8880
-export EOSIO_CONTRACT_ACCOUNT=alphacartest
-export EOSIO_STARTING_BLOCK=24003980
-export EOSIO_CHAINID="5fff1dae8dc8e2fc4d5b23b2c7665c97f9e9d8edf2b6485a86ba311c25639191"
-
 #kylin data_mgr
 export MONGODB_URL=mongodb://root:example@localhost:27017
 export MONGODB_OPT=?authSource=admin
 export EOSIO_HTTP_URL=http://api.kylin.eosbeijing.one:8880
 export EOSIO_CONTRACT_ACCOUNT=alphacartest
+export EOSIO_STARTING_BLOCK=24003980
 export EOSIO_CHAINID="5fff1dae8dc8e2fc4d5b23b2c7665c97f9e9d8edf2b6485a86ba311c25639191"
 export EOSIO_PK=5J8CXU3fPjxQRLjDCbdbkrYcZthaSsLMusndM19Yrh1NhfX7dvn
 
